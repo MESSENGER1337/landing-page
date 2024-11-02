@@ -90,10 +90,14 @@ button {
     border: 5px solid rgb(101, 155, 255);
     border-radius: 10px;
 }
+.box img {
+    width: 100%;
+    height: auto;
+}
 .box-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     margin: 0;
     padding: 0;
     gap: 20px;
@@ -148,8 +152,7 @@ button {
     align-items: center;
     color: white;
     background-color: #3882f6;
-    margin: 48px 200px;
-    width: 800px;
+    margin: 48px 200px; 
     padding: 20px 60px;
     border-radius: 10px;
 
