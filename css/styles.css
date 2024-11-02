@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 a {
-    color:#f9faf8;
+    color: #f9faf8;
     text-decoration: none;
 }
+
 ul {
     display: flex;
 
@@ -29,39 +30,56 @@ body {
     padding: 10px 48px;
 }
 
-.hero-container {
-    background-color: #1f2937;
 
+.hero-section {
+    padding: 120px 0;
+    background-color: #1f2937;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
+
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    padding: 0;
     margin: 0;
-    padding: 48px;
+
     /* min-height: 600px; */
 }
+
 .hero {
     /* border: 2px solid magenta; */
     margin: 0;
     padding: 10px;
     width: 50%;
 }
+
 .hero img {
     width: 100%;
     height: auto;
 }
+
 .hero-main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
+
 .hero-secondary {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    padding-bottom: 12px;
 }
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8
 }
+
 button {
     background-color: #3882f6;
     width: 200px;
@@ -70,11 +88,16 @@ button {
     border-radius: 10px;
     font-weight: 700;
     font-size: larger;
-}
-.call-to-action-container button {
     border: 3px solid white;
-
 }
+
+button:hover {
+    border: solid #000000;
+}
+.hero button {
+    border: 3px solid #3882f6;
+}
+
 .info-box {
     display: flex;
     flex-direction: column;
@@ -84,16 +107,23 @@ button {
     width: 120px;
     text-align: center;
 }
+
 .box {
     width: 120px;
     height: 120px;
     border: 5px solid rgb(101, 155, 255);
     border-radius: 10px;
 }
+
+.box:hover {
+    border: 5px solid #000000;
+}
+
 .box img {
     width: 100%;
     height: auto;
 }
+
 .box-section {
     display: flex;
     justify-content: space-between;
@@ -101,37 +131,44 @@ button {
     margin: 0;
     padding: 0;
     gap: 20px;
+    max-width: 800px;
 }
+
 .information {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 48px 70px;
+    padding: 120px 0;
     margin: 0;
     justify-content: center;
     align-items: center;
 }
+
 .information-header {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
 }
+
 .quote-section {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
 }
+
 .quote-container {
-    padding: 48px 200px;
-    width: 650px;
+    padding: 120px 0;
+    max-width: 800px;
 }
+
 .quote-text {
-    
+
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
 }
+
 .quote-credit {
     margin: 0;
     padding: 0;
@@ -144,30 +181,43 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+
     background-color: white;
+    padding: 120px 0px;
 }
+
 .call-to-action-container {
+    max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     background-color: #3882f6;
-    margin: 48px 200px; 
-    padding: 20px 60px;
+    padding: 0;
     border-radius: 10px;
+    
 
 }
+
 .its-time {
     font-weight: 700;
     font-size: larger;
+    margin: 0;
+    padding: 0;
 }
+
 .call-to-action {
+    width: 350px;
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    
-    padding-right: 60px;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 60px;
 
+}
+.call-to-action-button-container {
+    margin: 0;
+    padding-right: 60px;
 }
 
 .footer {
@@ -176,6 +226,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 48px;
+    padding: 30px 48px;
     color: white;
 }
+
+/* THANKS ANIA KUBOW AND THE ODIN PROJECT!!! */
